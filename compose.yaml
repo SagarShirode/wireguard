@@ -7,7 +7,7 @@ services:
 
     environment:
       - PASSWORD_HASH=$2y$10$/TvVk5g8j0pd6MwXggncROnHTImNhJxSn59B7FpJHVOh0Ba0LJ8WW
-      - WG_HOST=103.108.220.71
+      - WG_HOST=Server_IP
 
     volumes:
       - ./config:/etc/wireguard
